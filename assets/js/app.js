@@ -3,8 +3,15 @@
 const blurButton = document.getElementById('blurButton');
 const brightnessButton = document.getElementById('brightnessButton');
 const contrastButton = document.getElementById('contrastButton');
-const dropShadowButton = document.getElementById('dropShadowButton');
-const grayscale = document.getElementById('grayscale');
+const dropShadowButton = document.getElementById('dropShadowButton');D
+const grayscaleButton = document.getElementById('grayscaleButton');
+const hueRotateButton = document.getElementById('hueRotateButton');
+const invertButton = document.getElementById('invertButton');
+const opacityButton = document.getElementById('opacityButton');
+const saturateButton = document.getElementById('saturateButton');
+const sepiaButton = document.getElementById('sepiaButton');
+const photofilterButton = document.getElementById('photofilterButton');
+const noneButton = document.getElementById('noneButton');
 
 
 blurButton.addEventListener('click', function(){
@@ -55,3 +62,21 @@ document.getElementById('opacity').style.filter = 'opacity(30%)';
 // Code for Safari 6.0 - 9.0
 document.getElementById('opacity').style.WebkitFilter = 'opacity(30%)';
 });
+
+saturateButton.addEventListener('click', function(){
+  document.getElementById('saturate').style.filter = 'saturate(8)';
+  document.getElementById('saturate').style.WebkitFilter = 'saturate(8)';
+});
+sepiaButton.addEventListener('click', function(){
+  document.getElementById('sepia').style.filter = 'sepia(100%)';
+  document.getElementById('sepia').style.WebkitFilter = 'sepia(100%)';
+});
+photofilterButton.addEventListener('click', function(){
+  document.getElementById('photofilter').style.filter = 'hue-rotate(270deg)';
+  document.getElementById('photofilter').style.WebkitFilter = 'hue-rotate(270deg)';
+});
+noneButton.addEventListener('click', function(){
+  document.getElementById('none').style.filter = 'none';
+  document.getElementById('none').style.WebkitFilter = 'none';
+});
+
