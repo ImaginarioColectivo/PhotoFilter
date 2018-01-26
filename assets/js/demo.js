@@ -21,3 +21,6 @@ function archivo(evt){
 document.getElementById('files').addEventListener('change', archivo, false);
 
 archivo => evt
+
+
+
