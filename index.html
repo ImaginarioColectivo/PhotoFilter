@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo Photo Filter</title>
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <p>Selecciona tu imagen...</p>
+  <input type="file" id="files" name="files[]"/>
+  <br/>
+  <output id="list"></output>
+
+  <div>
+    <button id="blurButton">blur</button>
+  	<img id="blur" src="img/flor.jpg" alt="">
+  </div>
+
+  <div>
+    <button id="brightnessButton">brightness</button>
+    <img id="brightness" src="img/flor.jpg" alt="">
+  </div>
+  
+  <div>
+    <button id="contrastButton">contrast</button>
+    <img id="contrast" src="img/flor.jpg" alt="">
+  </div>
+
+  <div>
+    <button id="dropShadowButton">dropshadow</button>
+    <img id="drop-shadow" src="img/flor.jpg" alt="">
+  </div>
+  
+
+
+
+  <script src="assets/js/app.js"></script>
+  
+</body>
+</html>
