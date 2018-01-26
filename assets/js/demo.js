@@ -60,8 +60,8 @@ brightness.addEventListener('click', function(){
   filter.style.WebkitFilter = "brightness(200%)";
 })
 photofilter.addEventListener('click', function(){
-  filter.style.filter = "saturate(3)";
-  filter.style.WebkitFilter = "saturate(3)";
+  filter.style.filter = "hue-rotate(270deg)";
+  filter.style.WebkitFilter = "hue-rotate(270deg)";
 })
 /*blur.addEventListener('click', function(){
 var thumb = document.getElementById('blah').style.filter = "blur(5px)";
