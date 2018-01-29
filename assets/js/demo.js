@@ -1,6 +1,6 @@
 `use strict`
 
-const blur = document.getElementById('blur');
+const blur = document.getElementById('blurSelect');
 const sepia = document.getElementById('sepia');
 const opacity = document.getElementById('opacity');
 const contrast = document.getElementById('contrast');
