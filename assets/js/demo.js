@@ -1,64 +1,64 @@
 `use strict`
 
-const blur = document.getElementById('blurSelector');
-const sepia = document.getElementById('sepiaSelector');
-const opacity = document.getElementById('opacitySelector');
-const contrast = document.getElementById('contrastSelector');
-const hueRotate = document.getElementById('hue-rotateSelector');
-const dropShadow = document.getElementById('drop-shadowSelector');
-const none = document.getElementById('noneSelector');
-const invert = document.getElementById('invertSelector');
-const saturate = document.getElementById('saturateSelector');
-const grayscale = document.getElementById('grayscaleSelector');
-const brightness = document.getElementById('brightnessSelector');
-const photofilter = document.getElementById('photofilterSelector');
+const blur = document.getElementById('blurSelect');
+const sepia = document.getElementById('sepiaSelect');
+const opacity = document.getElementById('opacitySelect');
+const contrast = document.getElementById('contrastSelect');
+const hueRotate = document.getElementById('hue-rotateSelect');
+const dropShadow = document.getElementById('drop-shadowSelect');
+const none = document.getElementById('noneSelect');
+const invert = document.getElementById('invertSelect');
+const saturate = document.getElementById('saturateSelect');
+const grayscale = document.getElementById('grayscaleSelect');
+const brightness = document.getElementById('brightnessSelect');
+const photofilter = document.getElementById('photofilterSelect');
 const filter = document.getElementById('filtro');
 
-blur.addEventListener('click', function(event){
+blurSelect.addEventListener('click', function(event){
   filter.style.filter = "blur(5px)";
   filter.style.WebkitFilter = "blur(5px)"; 
 });
-sepia.addEventListener('click', function(fil){
+sepiaSelect.addEventListener('click', function(fil){
   filter.style.filter = "sepia(100%)";
   filter.style.WebkitFilter = "sepia(100%)";
 });
-opacity.addEventListener('click', function(){
+opacitySelect.addEventListener('click', function(){
   filter.style.filter = "opacity(50%)";
   filter.style.WebkitFilter = "opacity(50%)";
 })
-contrast.addEventListener('click', function(){
+contrastSelect.addEventListener('click', function(){
   filter.style.filter = "contrast(200%)";
   filter.style.WebkitFilter = "contrast(200%)";
 })
-hueRotate.addEventListener('click', function(){
+hueRotateSelect.addEventListener('click', function(){
   filter.style.filter = "hue-rotate(90deg)";
   filter.style.WebkitFilter = "hue-rotate(90deg)";
 })
-dropShadow.addEventListener('click', function(){
+dropShadowSelect.addEventListener('click', function(){
   filter.style.filter = "drop-shadow(8px 8px 10px gray)";
   filter.style.WebkitFilter = "drop-shadow(8px 8px 10px teal)";
 })
-none.addEventListener('click', function(){
+noneSelect.addEventListener('click', function(){
   filter.style.filter = "none";
   filter.style.WebkitFilter = "none";
 })
-invert.addEventListener('click', function(){
+invertSelect.addEventListener('click', function(){
   filter.style.filter = "invert(100%)";
   filter.style.WebkitFilter = "invert(100%)";
 })
-saturate.addEventListener('click', function(){
+saturateSelect.addEventListener('click', function(){
   filter.style.filter = "saturate(8)";
   filter.style.WebkitFilter = "saturate(8)";
 })
-grayscale.addEventListener('click', function(){
+grayscaleSelect.addEventListener('click', function(){
   filter.style.filter = "grayscale(100%)";
   filter.style.WebkitFilter = "grayscale(100%)";
 })
-brightness.addEventListener('click', function(){
+brightnessSelect.addEventListener('click', function(){
   filter.style.filter = "brightness(200%)";
   filter.style.WebkitFilter = "brightness(200%)";
 })
-photofilter.addEventListener('click', function(){
+photofilterSelect.addEventListener('click', function(){
   filter.style.filter = "hue-rotate(270deg)";
   filter.style.WebkitFilter = "hue-rotate(270deg)";
 })
@@ -90,5 +90,13 @@ function archivo(evt){
     reader.readAsDataURL(f);
   }
 }
+<<<<<<< HEAD
+document.getElementById('files').addEventListener('change', archivo, false);
+
+
+
+
+=======
 document.getElementById('files').addEventListener('change', archivo, false);*/
+
 
