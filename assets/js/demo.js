@@ -1,23 +1,22 @@
 `use strict`
 
-const blur = document.getElementById('blurSelect');
-const sepia = document.getElementById('sepia');
-const opacity = document.getElementById('opacity');
-const contrast = document.getElementById('contrast');
-const hueRotate = document.getElementById('hue-rotate');
-const dropShadow = document.getElementById('drop-shadow');
-const none = document.getElementById('none');
-const invert = document.getElementById('invert');
-const saturate = document.getElementById('saturate');
-const graysacale = document.getElementById('grayscale');
-const brightness = document.getElementById('brightness');
-const photofilter = document.getElementById('photofilter');
+const blur = document.getElementById('blurSelector');
+const sepia = document.getElementById('sepiaSelector');
+const opacity = document.getElementById('opacitySelector');
+const contrast = document.getElementById('contrastSelector');
+const hueRotate = document.getElementById('hue-rotateSelector');
+const dropShadow = document.getElementById('drop-shadowSelector');
+const none = document.getElementById('noneSelector');
+const invert = document.getElementById('invertSelector');
+const saturate = document.getElementById('saturateSelector');
+const grayscale = document.getElementById('grayscaleSelector');
+const brightness = document.getElementById('brightnessSelector');
+const photofilter = document.getElementById('photofilterSelector');
 const filter = document.getElementById('filtro');
 
 blur.addEventListener('click', function(event){
   filter.style.filter = "blur(5px)";
-  filter.style.WebkitFilter = "blur(5px)";
-  
+  filter.style.WebkitFilter = "blur(5px)"; 
 });
 sepia.addEventListener('click', function(fil){
   filter.style.filter = "sepia(100%)";
