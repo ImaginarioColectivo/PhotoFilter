@@ -1,66 +1,66 @@
 `use strict`
 
-const blur = document.getElementById('blur');
-const sepia = document.getElementById('sepia');
-const opacity = document.getElementById('opacity');
-const contrast = document.getElementById('contrast');
-const hueRotate = document.getElementById('hue-rotate');
-const dropShadow = document.getElementById('drop-shadow');
-const none = document.getElementById('none');
-const invert = document.getElementById('invert');
-const saturate = document.getElementById('saturate');
-const graysacale = document.getElementById('grayscale');
-const brightness = document.getElementById('brightness');
-const photofilter = document.getElementById('photofilter');
-const filter = document.getElementById('filtro');
+const blurSelect = document.getElementById('blur');
+const sepiaSelect = document.getElementById('sepia');
+const opacitySelect = document.getElementById('opacity');
+const contrastSelect = document.getElementById('contrast');
+const hueRotateSelect = document.getElementById('hue-rotate');
+const dropShadowSelect = document.getElementById('drop-shadow');
+const noneSelect = document.getElementById('none');
+const invertSelect = document.getElementById('invert');
+const saturateSelect = document.getElementById('saturate');
+const grayscaleSelect = document.getElementById('grayscale');
+const brightnessSelect = document.getElementById('brightness');
+const photofilterSelect = document.getElementById('photofilter');
+const filterSelect = document.getElementById('filtro');
 
-blur.addEventListener('click', function(event){
-  filter.style.filter = "blur(5px)";
-  filter.style.WebkitFilter = "blur(5px)";
-  
+blurSelect.addEventListener('click', function(event){
+  filterSelect.style.filter = "blur(5px)";
+  filterSelect.style.WebkitFilter = "blur(5px)"; 
 });
-sepia.addEventListener('click', function(fil){
-  filter.style.filter = "sepia(100%)";
-  filter.style.WebkitFilter = "sepia(100%)";
+sepiaSelect.addEventListener('click', function(fil){
+  filterSelect.style.filter = "sepia(100%)";
+  filterSelect.style.WebkitFilter = "sepia(100%)";
 });
-opacity.addEventListener('click', function(){
-  filter.style.filter = "opacity(50%)";
-  filter.style.WebkitFilter = "opacity(50%)";
+opacitySelect.addEventListener('click', function(){
+  filterSelect.style.filter = "opacity(50%)";
+  filterSelect.style.WebkitFilter = "opacity(50%)";
 })
-contrast.addEventListener('click', function(){
-  filter.style.filter = "contrast(200%)";
-  filter.style.WebkitFilter = "contrast(200%)";
+contrastSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "contrast(200%)";
+  filterSelect.style.WebkitFilter = "contrast(200%)";
 })
-hueRotate.addEventListener('click', function(){
-  filter.style.filter = "hue-rotate(90deg)";
-  filter.style.WebkitFilter = "hue-rotate(90deg)";
+hueRotateSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "hue-rotate(90deg)";
+  filterSelect.style.WebkitFilter = "hue-rotate(90deg)";
 })
-dropShadow.addEventListener('click', function(){
-  filter.style.filter = "drop-shadow(8px 8px 10px gray)";
-  filter.style.WebkitFilter = "drop-shadow(8px 8px 10px teal)";
+dropShadowSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "drop-shadow(8px 8px 10px gray)";
+  filterSelect.style.WebkitFilter = "drop-shadow(8px 8px 10px teal)";
 })
-none.addEventListener('click', function(){
-  filter.style.filter = "none";
-  filter.style.WebkitFilter = "none";
+noneSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "none";
+  filterSelect.style.WebkitFilter = "none";
 })
-invert.addEventListener('click', function(){
-  filter.style.filter = "invert(100%)";
-  filter.style.WebkitFilter = "invert(100%)";
+invertSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "invert(100%)";
+  filterSelect.style.WebkitFilter = "invert(100%)";
 })
-saturate.addEventListener('click', function(){
-  filter.style.filter = "saturate(8)";
-  filter.style.WebkitFilter = "saturate(8)";
+saturateSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "saturate(8)";
+  filterSelect.style.WebkitFilter = "saturate(8)";
 })
-grayscale.addEventListener('click', function(){
-  filter.style.filter = "grayscale(100%)";
-  filter.style.WebkitFilter = "grayscale(100%)";
+grayscaleSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "grayscale(100%)";
+  filterSelect.style.WebkitFilter = "grayscale(100%)";
 })
-brightness.addEventListener('click', function(){
-  filter.style.filter = "brightness(200%)";
-  filter.style.WebkitFilter = "brightness(200%)";
+brightnessSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "brightness(200%)";
+  filterSelect.style.WebkitFilter = "brightness(200%)";
 })
-photofilter.addEventListener('click', function(){
-  filter.style.filter = "hue-rotate(270deg)";
-  filter.style.WebkitFilter = "hue-rotate(270deg)";
+photofilterSelect.addEventListener('click', function(){
+  filterSelect.style.filter = "hue-rotate(270deg)";
+  filterSelect.style.WebkitFilter = "hue-rotate(270deg)";
 })
+
 
