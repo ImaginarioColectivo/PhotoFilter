@@ -1,6 +1,6 @@
 `use strict`
 
-const blur = document.getElementById('blur');
+const blur = document.getElementById('blurSelect');
 const sepia = document.getElementById('sepia');
 const opacity = document.getElementById('opacity');
 const contrast = document.getElementById('contrast');
@@ -17,6 +17,7 @@ const filter = document.getElementById('filtro');
 blur.addEventListener('click', function(event){
   filter.style.filter = "blur(5px)";
   filter.style.WebkitFilter = "blur(5px)";
+  
 });
 sepia.addEventListener('click', function(fil){
   filter.style.filter = "sepia(100%)";
