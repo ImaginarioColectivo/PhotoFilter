@@ -1,39 +1,39 @@
 'use strict'
 
-const blurButton = document.getElementById('blurButton');
-const brightnessButton = document.getElementById('brightnessButton');
-const contrastButton = document.getElementById('contrastButton');
-const dropShadowButton = document.getElementById('dropShadowButton');
-const grayscaleButton = document.getElementById('grayscaleButton');
-const hueRotateButton = document.getElementById('hueRotateButton');
-const invertButton = document.getElementById('invertButton');
-const opacityButton = document.getElementById('opacityButton');
-const saturateButton = document.getElementById('saturateButton');
-const sepiaButton = document.getElementById('sepiaButton');
-const photofilterButton = document.getElementById('photofilterButton');
-const noneButton = document.getElementById('noneButton');
+
+const blurSelect = document.getElementById('blurSelect');
+const brightnessSelect = document.getElementById('brightnessSelect');
+const contrastSelect = document.getElementById('contrastSelect');
+const dropShadowSelect = document.getElementById('dropShadowSelect');
+const grayscaleSelect = document.getElementById('grayscaleSelect');
+const hueRotateSelect = document.getElementById('hueRotateSelect');
+const invertSelect = document.getElementById('invertSelect');
+const opacitySelect = document.getElementById('opacitySelect');
+const saturateSelect = document.getElementById('saturateSelect');
+const sepiaSelectn = document.getElementById('sepiaSelect');
+const photofilterSelect = document.getElementById('photofilterSelect');
 
 
-blurButton.addEventListener('click', function(){
+blurSelect.addEventListener('click', function(){
 document.getElementById('blur').style.filter = 'blur(2px)';
 // Code for Safari 6.0 - 9.0
 document.getElementById('blur').style.WebkitFilter = 'blur(2px)';
 });
 
 
-brightnessButton.addEventListener('click', function(){
+brightnessSelect.addEventListener('click', function(){
 document.getElementById('brightness').style.filter = 'brightness(190%)';
 // Code for Safari 6.0 - 9.0
 document.getElementById('brightness').style.WebkitFilter = 'brightness(190%)';
 });
 
-contrastButton.addEventListener('click', function(){
+contrastSelect.addEventListener('click', function(){
 document.getElementById('contrast').style.filter = 'contrast(300%)';
 // Code for Safari 6.0 - 9.0
 document.getElementById('contrast').style.WebkitFilter = 'contrast(300%)';
 });
 
-dropShadowButton.addEventListener('click', function(){
+dropShadowSelect.addEventListener('click', function(){
 document.getElementById('drop-shadow').style.filter = 'drop-shadow(10px 8px 20px red)';
 // Code for Safari 6.0 - 9.0
 document.getElementById('drop-shadow').style.WebkitFilter = 'drop-shadow(10px 8px 20px red)';

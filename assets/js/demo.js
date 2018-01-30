@@ -91,5 +91,13 @@ function archivo(evt){
     reader.readAsDataURL(f);
   }
 }
+<<<<<<< HEAD
+document.getElementById('files').addEventListener('change', archivo, false);
+
+
+
+
+=======
 document.getElementById('files').addEventListener('change', archivo, false);*/
+
 
