@@ -63,33 +63,4 @@ photofilter.addEventListener('click', function(){
   filter.style.filter = "hue-rotate(270deg)";
   filter.style.WebkitFilter = "hue-rotate(270deg)";
 })
-/*blur.addEventListener('click', function(){
-var thumb = document.getElementById('blah').style.filter = "blur(5px)";
-  //thumb.style.WebkitFilter = "blur(5px)";
-});
-invert.addEventListener('click', function(){
-  var thumb = document.getElementById('blah').style.filter = "100%";
-});
-
-function archivo(evt){
-  var files = evt.target.files;
-  //obtener la imagen del campo
-  for(var i = 0, f; f = files[i]; i++) {
-    //solo admitimos imagenes
-    if(!f.type.match('image.*')) {
-      continue;
-    }
-    var reader = new FileReader();
-    reader.onload = (function(theFile){
-      return function(e){
-
-      var thumb = document.getElementById('blah');
-        //crear imagen
-        document.getElementById("list").innerHTML = ['<img id="blah" src="', e.target.result,'" title="', escape(theFile.name), ' ' + thumb + ' "/>'].join('');
-      };
-    })(f);
-    reader.readAsDataURL(f);
-  }
-}
-document.getElementById('files').addEventListener('change', archivo, false);*/
 
