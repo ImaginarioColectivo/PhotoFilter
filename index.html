@@ -2,76 +2,32 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Demo Photo Filter</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0">
+  <title>Demo PhotoFilter</title>
+  <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
-  <p>Selecciona tu imagen...</p>
-  <input type="file" id="files" name="files[]"/>
-  <br/>
-  <output id="list"></output>
-
-  <div>
-    <button id="blur">blur</button>
-  	<img id="blurImg" src="img/flor.jpg" alt="">
-  </div>
-
-  <div>
-    <button id="brightness">brightness</button>
-    <img id="brightnessImg" src="img/flor.jpg" alt="">
-  </div>
+  <div class="contenedor">
+    <a href="#" id="blur" class="waves-effect waves-light btn indigo lighten-2">BLUR</a>
+        <a href="#" id="sepia" class="waves-effect waves-light btn indigo lighten-2">SEPIA</a>
+        <a href="#" id="opacity" class="waves-effect waves-light btn indigo lighten-2">OPACITY</a>
+        <a href="#" id="contrast" class="waves-effect waves-light btn indigo lighten-2">CONTRAST</a>
+        <a href="#" id="hue-rotate" class="waves-effect waves-light btn indigo lighten-2">HUE-ROTATE</a>
+        <a href="#" id="drop-shadow" class="waves-effect waves-light btn indigo lighten-2">DROP-SHADOW</a>
   
-  <div>
-    <button id="contrast">contrast</button>
-    <img id="contrastImg" src="img/flor.jpg" alt="">
+    <div class="imagen">
+      <img src="paisajes.jpg" alt="paisajes" id="filtro">
+    </div>
+    <a href="#" id="invert" class="waves-effect waves-light btn indigo lighten-2">INVERT</a>
+        <a href="#" id="saturate" class="waves-effect waves-light btn indigo lighten-2">SATURATE</a>
+        <a href="#" id="grayscale" class="waves-effect waves-light btn indigo lighten-2">GRAYSCALE</a>
+        <a href="#" id="brightness" class="waves-effect waves-light btn indigo lighten-2">BRIGHTNESS</a>
+        <a href="#" id="photofilter" class="waves-effect waves-light btn indigo lighten-2">PHOTOFILTER</a>
+        <a href="#" id="none" class="waves-effect waves-light btn indigo lighten-2">NONE</a>
   </div>
 
-  <div>
-    <button id="dropShadow">dropshadow</button>
-    <img id="drop-shadowImg" src="img/flor.jpg" alt="">
-  </div>
+ <script src="assets/js/app.js"></script>
 
-  <div>
-    <button id="grayscale">grayscale</button>
-    <img id="grayscaleImg" src="img/flor.jpg" alt="">
-  </div>
-  
-  <div>
-    <button id="hueRotate">hue-rotate</button>
-    <img id="hue-rotateImg" src="img/flor.jpg" alt="">
-  </div>
-
-  <div>
-    <button id="saturate">saturate</button>
-    <img id="saturateImg" src="img/flor.jpg" alt="">
-  </div>
-
-  <div>
-    <button id="sepia">sepia</button>
-    <img id="sepiaImg" src="img/flor.jpg" alt="" >
-  </div>
-
-  <div>
-    <button id="photofilter">photofilter</button>
-    <img id="photofilterImg" src="img/flor.jpg" alt="" >
-  </div>
-  
-  <div>
-    <button id="none">none</button>
-    <img id="noneImg" src="img/flor.jpg" alt="" >
-  </div>
-
-  <div>
-    <button id="invert">invert</button>
-    <img id="invertImg" src="img/flor.jpg" alt="">
-  </div>
-
-   <div>
-    <button id="opacity">opacity</button>
-    <img id="opacityImg" src="img/flor.jpg" alt="">
-  </div>
-
-  <script src="assets/js/app.js"></script>
-  
 </body>
 </html>

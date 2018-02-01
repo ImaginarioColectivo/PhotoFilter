@@ -16,7 +16,7 @@ const filterSelect = document.getElementById('filtro');
 
 blurSelect.addEventListener('click', function(){
   filterSelect.style.filter = "blur(5px)";
-  filterSelect.style.WebkitFilter = "blur(5px)"; 
+  filterSelect.style.WebkitFilter = "blur(5px)";
 });
 sepiaSelect.addEventListener('click', function(){
   filterSelect.style.filter = "sepia(100%)";
