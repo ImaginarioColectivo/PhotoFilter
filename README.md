@@ -12,28 +12,37 @@ Uso
 -----
 
 Selecciona una imagen (jpg, png) desde tu galería y agrega a tus imágenes los siguientes efectos:
-	* Blur
-	* Brightness
-	* Contrast
-	* Drop-shadow
-	* Grayscale
-	* Hue-rotate
-	* Invert
-	* Opacity
-	* Saturate
-	* Sepia
-	* Contrast
-	* None
+* **Blur** 
+* **Brightness**
+* **Contrast**
+* **Drop-shadow**
+* **Grayscale**
+* **Hue-rotate**
+* **Invert**
+* **Opacity**
+* **Saturate**
+* **Sepia**
+* **Contrast**
+* **None**
 
 Documentación
 --------------
-babel 
-eslintrc
-gitignore
-package.json
+
+* **[babel](https://babeljs.io/)**
+* **[eslintrc](https://eslint.org/)**
+* **[mocha](https://mochajs.org/)**
+* **[gitignore]()**
+* **[package.json]()**
+
+
+Autor
+-----
+
+* **Josefina León** - *Initial work* - [MrsPepa](https://github.com/MrsPepa)
+* **Marjorie Einfalt** - *Initial work* - [ImaginarioColectivo](https://github.com/ImaginarioColectivo)
+* **Camila Silva** - *Initial work* - [camilufer](https://github.com/camilufer)
 
 
 
 
-
-** inspirado en https://www.w3schools.com/cssref/css3_pr_filter.asp
+ Inspirado en - [w3schools](https://www.w3schools.com/cssref/css3_pr_filter.asp) 
