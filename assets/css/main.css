@@ -1,6 +1,24 @@
-.thumb {
-  height: 300px;
-  border: 1px solid #000;
-  margin: 10px 5px 0 0;
+* {
+  box-sizing: border-box;
+  text-align: center;
+font-family: 'Annie Use Your Telescope', cursive;
+}
+.contenedor {
+  height: 100vh;
+}
+.btn {
+  margin-bottom: 1em;
+  width: 10em;
 }
 
+#thumb {
+  width: 21em;
+}
+.imagen {
+  margin-left: 7rem;
+  padding-left: 2em;
+}
+#filtro {
+  width: 80%;
+  height: 20rem;
+}
