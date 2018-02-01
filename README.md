@@ -6,7 +6,7 @@ Photofilter es una librería de javascript que te permite darle diferentes estil
 Instrucciones de instalación
 ----------------------------
 
-npm install Photofilter
+npm install PhotoFilter
 
 Uso
 -----
