@@ -17,5 +17,6 @@ describe('filters', () => {
 	it("Debe cambiar filtro a sepia", () => {
 		assert.equal("sepia" !== undefined, true);
 	});
+
 })
 
