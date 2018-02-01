@@ -1,5 +1,4 @@
 const chai = require('chai');
-
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 let dom = new JSDOM('<!doctype html><html><body><img src="paisajes.jpg" alt="paisajes" id="filtro"></body></html>');
