@@ -28,10 +28,12 @@ Selecciona una imagen (jpg, png) desde tu galería y agrega a tus imágenes los 
 Documentación
 --------------
 
-babel 
-eslintrc
-gitignore
-package.json
+* **[babel](https://babeljs.io/)**
+* **[eslintrc](https://eslint.org/)**
+* **[mocha](https://mochajs.org/)**
+* **[gitignore]()**
+* **[package.json]()**
+
 
 Autor
 -----
@@ -43,4 +45,4 @@ Autor
 
 
 
-* Inspirado en - [w3shchools](https://www.w3schools.com/cssref/css3_pr_filter.asp) 
+ Inspirado en - [w3schools](https://www.w3schools.com/cssref/css3_pr_filter.asp) 
