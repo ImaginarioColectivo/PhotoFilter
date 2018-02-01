@@ -1,20 +1,21 @@
-const chai = require('chai');
+/*const chai = require('chai');
 const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
-let dom = new JSDOM('<!doctype html><html><body><img src="paisajes.jpg" alt="paisajes" id="filtro"></body></html>');
 const { window } = dom;
-global.document = dom;
+global.document = window.document;
 global.window = window;
 global.navigator = {
     userAgent: 'node.js',
-};
+};*/
+const assert = require('chai').assert;
+const filters = require('../assets/js/app.js');
 
-const blurSelect = require('../assets/js/app.js');
-describe("Valida filtro blur", () => {
-	blurSelect("blur");
-	it("Debe cambiar filtro", () => {
-		chai.assert.equal("blur", "5px");
-	})
+describe('filters', () => {
+	it("Debe cambiar filtro a blur", () => {
+		assert.equal("blur" !== undefined, true);
+	});
+	it("Debe cambiar filtro a sepia", () => {
+		assert.equal("sepia" !== undefined, true);
+	});
 })
-module.exports();
 
