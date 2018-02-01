@@ -10,4 +10,11 @@ global.navigator = {
     userAgent: 'node.js',
 };
 
-const blurSelect = require('')
+const blurSelect = require('../assets/js/app.js');
+describe("Valida filtro blur", () => {
+	blurSelect("blur");
+	it("Debe cambiar filtro", () => {
+		chai.assert.equal("blur", "5px");
+	})
+})
+module.exports();
