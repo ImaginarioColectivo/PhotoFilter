@@ -16,7 +16,7 @@ describe('filters', () => {
 		assert.equal('contrast' != undefined, true);
 	})
 	it('Debe cambiar filtro a huerotate', () => {
-		assert.equal('hueRotate' != undefined, true);
+		assert.equal('hue-rotate' != undefined, true);
 	})
  	it('Debe cambiar filtro a drop-shadow', () => {
  		assert.equal('drop-shadow' != undefined, true);
@@ -40,5 +40,8 @@ describe('filters', () => {
     assert.equal('photofilter' !== undefined, true);
   	});
  });
+
+
+
 
 
