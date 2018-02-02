@@ -6,38 +6,37 @@ describe('filters', () => {
 		assert.notEqual('blur' == undefined, true);
 	});
 	it('Debe cambiar filtro a sepia', () => {
-		assert.equal('sepia' !== undefined, true);
+		assert.notEqual('sepia' == undefined, true);
 	});
-
 	it('Debe cambiar filtro a opacity', () => {
-		assert.equal('opacity' !== undefined, true);
+		assert.notEqual('opacity' == undefined, true);
 	})
 	it('Debe cambiar filtro a contrast', () => {
-		assert.equal('contrast' !== undefined, true);
+		assert.notEqual('contrast' == undefined, true);
 	})
 	it('Debe cambiar filtro a huerotate', () => {
-		assert.equal('hueRotate' !== undefined, true);
+		assert.notEqual('hueRotate' == undefined, true);
 	})
  	it('Debe cambiar filtro a drop-shadow', () => {
- 		assert.equal('drop-shadow' !== undefined, true);
+ 		assert.notEqual('drop-shadow' == undefined, true);
  	})
  	it('Debe cambiar filtro a none', () => {
- 		assert.equal('none' !== undefined, true);
+ 		assert.notEqual('none' == undefined, true);
  	})	
   it('Debe cambiar filtro a invert', () => {
-    assert.equal('invert' !== undefined, true);
+    assert.notEqual('invert' == undefined, true);
   });
   it('Debe cambiar filtro a saturate', () => {
-    assert.equal('saturate' !== undefined, true);
+    assert.notEqual('saturate' == undefined, true);
   });
   it('Debe cambiar filtro a grayscale', () => {
-    assert.equal('grayscale' !== undefined, true);
+    assert.notEqual('grayscale' == undefined, true);
   });
   it('Debe cambiar filtro a brightness', () => {
-    assert.equal('brightness' !== undefined, true);
+    assert.notEqual('brightness' == undefined, true);
   });
   it('Debe cambiar filtro a photofilter', () => {
-    assert.equal('photofilter' !== undefined, true);
+    assert.notEqual('photofilter' == undefined, true);
   });
 });
 
