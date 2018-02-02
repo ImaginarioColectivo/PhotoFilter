@@ -7,7 +7,7 @@ Instrucciones de instalación
 ----------------------------
 
 Debes ir a tu terminal y ejecutar el comando npm install PhotoTwelveFilter. Con esto se descargará la librería en tu computador, incluyendo todas las dependecias necesarias que utilizará para funcionar.
-Además, se incluye una carpeta llamada demo donde podrás visualizar como funcionan los filtros en una misma imagen. Y como ha sido implementada la librería en el archivo demo.html y demo.js. 
+Además, se incluye una carpeta llamada demo donde podrás visualizar como funcionan los filtros en una misma imagen. Y así ver como ha sido implementada la librería en el archivo demo.html y demo.js. 
 
 Uso
 -----
