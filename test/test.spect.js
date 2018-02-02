@@ -24,21 +24,21 @@ describe('filters', () => {
  	it('Debe cambiar filtro a none', () => {
  		assert.equal('none' != undefined, true);
  	})	
-  it('Debe cambiar filtro a invert', () => {
+  	it('Debe cambiar filtro a invert', () => {
     assert.equal('invert' !== undefined, true);
-  });
-  it('Debe cambiar filtro a saturate', () => {
+  	});
+  	it('Debe cambiar filtro a saturate', () => {
     assert.equal('saturate' !== undefined, true);
-  });
-  it('Debe cambiar filtro a grayscale', () => {
+  	});
+  	it('Debe cambiar filtro a grayscale', () => {
     assert.equal('grayscale' !== undefined, true);
-  });
-  it('Debe cambiar filtro a brightness', () => {
+  	});
+  	it('Debe cambiar filtro a brightness', () => {
     assert.equal('brightness' !== undefined, true);
-  });
-  it('Debe cambiar filtro a photofilter', () => {
+  	});
+  	it('Debe cambiar filtro a photofilter', () => {
     assert.equal('photofilter' !== undefined, true);
-  });
-});
+  	});
+ });
 
 
