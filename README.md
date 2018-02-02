@@ -1,12 +1,12 @@
-Librería PhotoTwelveFilter
+Librería PhotoFilter
 ====================
 
-PhotoTwelveFilter es una librería de Javascript que te permite usar doce diferentes filtros que puedes aplicar a tus imágenes de manera fácil y práctica. Solo usando un ID puedes aplicar tus filtros al elemento que tu elijas.
+PhotoFilter es una librería de Javascript que te permite usar doce diferentes filtros que puedes aplicar a tus imágenes de manera fácil y práctica. Solo usando un ID puedes aplicar tus filtros al elemento que tu elijas.
 
 Instrucciones de instalación
 ----------------------------
 
-Debes ir a tu terminal y ejecutar el comando npm install PhotoTwelveFilter. Con esto se descargará la librería en tu computador, incluyendo todas las dependecias necesarias que utilizará para funcionar.
+Debes ir a tu terminal y ejecutar el comando npm install PhotoFilter. Con esto se descargará la librería en tu computador, incluyendo todas las dependecias necesarias que utilizará para funcionar.
 Además, se incluye una carpeta llamada demo donde podrás visualizar como funcionan los filtros en una misma imagen. Y así ver como ha sido implementada la librería en el archivo demo.html y demo.js. 
 
 Uso
