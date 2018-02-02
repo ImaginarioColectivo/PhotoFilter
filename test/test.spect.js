@@ -23,21 +23,22 @@ describe('filters', () => {
  	it('Debe cambiar filtro a none', () => {
  		assert.notEqual('none' == undefined, true);
  	})	
-  it('Debe cambiar filtro a invert', () => {
-    assert.notEqual('invert' == undefined, true);
-  });
-  it('Debe cambiar filtro a saturate', () => {
-    assert.notEqual('saturate' == undefined, true);
-  });
-  it('Debe cambiar filtro a grayscale', () => {
-    assert.notEqual('grayscale' == undefined, true);
-  });
-  it('Debe cambiar filtro a brightness', () => {
-    assert.notEqual('brightness' == undefined, true);
-  });
-  it('Debe cambiar filtro a photofilter', () => {
-    assert.notEqual('photofilter' == undefined, true);
-  });
+  	it('Debe cambiar filtro a invert', () => {
+   		assert.notEqual('invert' == undefined, true);
+ 	});
+ 	it('Debe cambiar filtro a saturate', () => {
+    		assert.notEqual('saturate' == undefined, true);
+ 	});
+  	it('Debe cambiar filtro a grayscale', () => {
+    		assert.notEqual('grayscale' == undefined, true);
+  	});
+  	it('Debe cambiar filtro a brightness', () => {
+   		assert.notEqual('brightness' == undefined, true);
+ 	});
+ 	it('Debe cambiar filtro a photofilter', () => {
+    		assert.notEqual('photofilter' == undefined, true);
+ 	});
 });
+
 
 
