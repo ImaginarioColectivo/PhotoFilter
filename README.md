@@ -1,29 +1,31 @@
-Librería Photofilter
+Librería PhotoTwelveFilter
 ====================
 
-Photofilter es una librería de javascript que te permite darle diferentes estilos a tus fotografías de manera fácil y práctica.
+Photofilter es una librería de Javascript que te permite usar doce diferentes filtros que puedes aplicar a tus imágenes de manera fácil y práctica. Solo usando un ID podrás aplicar tus filtros al elemento que tu elijas.
 
 Instrucciones de instalación
-----------------------------
+---------------------------
 
-npm install PhotoFilter
+Debes ir a tu terminal y ejecutar el comando npm install PhotoTwelveFilter. Con esto se descargará tu librería incluyendo todas las dependecias que utilizará para funcionar.
 
 Uso
 -----
 
-Selecciona una imagen (jpg, png) desde tu galería y agrega a tus imágenes los siguientes efectos:
-* **Blur** 
-* **Brightness**
-* **Contrast**
-* **Drop-shadow**
-* **Grayscale**
-* **Hue-rotate**
-* **Invert**
-* **Opacity**
-* **Saturate**
-* **Sepia**
-* **Contrast**
-* **None**
+Selecciona una imagen y cargala en tu archivo html.
+Dale a tu imágen alguno de los siguientes ID disponibles para filtrar tu fotografía.
+
+* **blur** 
+* **brightness**
+* **contrast**
+* **drop-shadow**
+* **grayscale**
+* **hue-rotate**
+* **invert**
+* **opacity**
+* **saturate**
+* **sepia**
+* **contrast**
+* **none**
 
 Documentación
 --------------
@@ -31,16 +33,16 @@ Documentación
 * **[babel](https://babeljs.io/)**
 * **[eslintrc](https://eslint.org/)**
 * **[mocha](https://mochajs.org/)**
-* **[gitignore]()**
-* **[package.json]()**
+* **[gitignore](https://git-scm.com/docs/gitignore)**
+* **[package.json](https://docs.npmjs.com/files/package.json)**
 
 
 Autor
 -----
 
-* **Josefina León** - *Initial work* - [MrsPepa](https://github.com/MrsPepa)
-* **Marjorie Einfalt** - *Initial work* - [ImaginarioColectivo](https://github.com/ImaginarioColectivo)
-* **Camila Silva** - *Initial work* - [camilufer](https://github.com/camilufer)
+* **Josefina León** - [MrsPepa](https://github.com/MrsPepa)
+* **Marjorie Einfalt** - [ImaginarioColectivo](https://github.com/ImaginarioColectivo)
+* **Camila Silva** - [camilufer](https://github.com/camilufer)
 
 
 
